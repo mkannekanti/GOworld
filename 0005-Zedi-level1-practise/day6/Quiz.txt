@@ -1,0 +1,215 @@
+
+Quiz for "Variables, Values & Type"
+Total points
+36/36
+ 
+This quiz will reinforce the concepts you are learning. By taking this quiz, you will become a stronger programmer.
+Section score36/36
+ 
+1. The smallest standalone element of a program that expresses some action to be carried out. *
+statement - Answer
+expression
+ 
+2. A combination of one or more explicit values, constants, variables, operators, and functions that the programming language interprets and computes to produce another value. *
+statement
+expression - Answer
+ 
+ 
+3. Which are "parentheses" or "parens" *
+( ) - Answer
+{ }
+[ ]
+ 
+4. Which are "curly braces" or "curlies" or "braces" *
+( )
+{ } - Answer
+[ ]
+ 
+5. Which are "brackets" *
+( )
+{ }
+[ ] - Answer
+ 
+6. The "scope" of a variable is where you can access the variable, eg, write to it or read the value from it. *
+true - Answer
+false
+
+Feedback
+https://en.wikipedia.org/wiki/Scope_(computer_science)
+ 
+7. A "primitive" data TYPE is one that is built into the language AND/OR just a basic data type which is built into the language *
+true - Answer
+false
+ 
+8. In Go, an "int" is a primitive data TYPE *
+true - Answer
+false
+
+Feedback
+The "int" TYPE is built into the Go programming language. It is also a basic TYPE (not a composite TYPE).
+ 
+9. In Go, a "string" is a primitive data TYPE *
+true - Answer
+false
+
+Feedback
+The "string" TYPE is built into the Go programming language.
+ 
+10. A "composite" data TYPE allows you to compose together values of other data TYPES *
+true - Answer 
+false
+
+Feedback
+In computer science, a composite data type or compound data type is any data type which can be constructed in a program using the programming language's primitive data types and other composite types. It is sometimes called a structure or aggregate data type, although the latter term may also refer to arrays, lists, etc. The act of constructing a composite type is known as composition
+ 
+11. When a variable is declared in Go using the "var" keyword, and no VALUE is ASSIGNED to that variable, then the compiler assigns a default value to the variable. This is known as the "zero value" *
+true - Answer 
+false
+ 
+12. Keywords are words that a reserved for use by the Go programming language; they have to be used in a certain way for a certain purpose. *
+True - Answer
+False
+ 
+13. Keywords are sometimes called “reserved words.” *
+True - Answer
+False
+ 
+14. You can’t use a keyword for anything other than its purpose. *
+True - Answer
+False
+ 
+15. In “2 + 2” the “+” is the OPERATOR *
+True - Answer
+False
+ 
+16. In “2 + 2” the “2”s are OPERANDS *
+True - Answer
+False
+
+17. For finding documentation, what is the difference between documentation found at golang.org and godoc.org?
+
+Feedback
+Golang.org is the official website of the go programming language. Golang.org only has documentation for the standard library. Godoc.org has documentation for the standard library and third-party packages. The content of the documentation of the standard library is the same on both golang.org and godoc.org, though the content is formatted differently.
+ 
+18. "package" is a keyword *
+true - Answer
+false
+ 
+19. "var" is a keyword *
+true - Answer
+false
+ 
+20. The entry point for all programs is in func main() which needs to be inside package main *
+true - Answer
+false
+
+21. The "short declaration operator" can be used anywhere in a program, including at both the package level and at the block level. *
+true
+false - Answer
+ 
+22. What are the three words used to describe good package names in the "effective go" document? *
+descriptive
+short - Answer
+concise - Answer
+evocative - Answer
+
+23. What is the name of the website where you can write (most) Go code online and have it run online? *
+golang playground
+
+Feedback
+The "golang playground" allows you to write Go code and run Go code online. You can find it here: https://play.golang.org/
+ 
+24. A great place to ask questions is the "golang bridge forum" at https://forum.golangbridge.org/ *
+true - Answer
+false
+
+Feedback
+The "golang bridge forum" at https://forum.golangbridge.org/ is a great place to ask questions.
+ 
+25. When you see something like "fmt.Println()" this is calling the "Println()" function from the "fmt" package. *
+true - Answer
+false
+
+Feedback
+When you see something like "fmt.Println()" this is calling the "Println()" function from the "fmt" package.
+ 
+26. An "identifier" is the name assigned to a variable or a function or a constant. *
+true - Answer
+false
+
+Feedback
+An "identifier" is the name assigned to a variable or a function or a constant.
+ 
+27. To call a func, variable, or constant from a package, use the "package-dot-identifier" syntax. For example, like this, "fmt.Println()" *
+True - Answer
+False
+
+28. What is "idiomatic Go code"?
+
+Feedback
+When you write "idiomatic Go code" you are writing Go code which conforms to best practices for writing Go code.
+ 
+29. Which character allows you to "throw away returns" or "send returns into the void"? Said another way, which character allows you to tell the compiler that you are not going to use a value returned by a function? *
+#
+@
+_ - Answer
+ 
+This is a trick question
+Feedback
+The blank identifier is represented by the underscore character _. It serves as an anonymous placeholder instead of a regular (non-blank) identifier and has special meaning in declarations, as an operand, and in assignments.
+https://golang.org/ref/spec#Blank_identifier
+ 
+30. In Go, you cannot have a variable which you do not use. *
+True - Answer
+False
+
+Feedback
+It is an error to import a package or to declare a variable without using it. Unused imports bloat the program and slow compilation, while a variable that is initialized but not used is at least a wasted computation and perhaps indicative of a larger bug. When a program is under active development, however, unused imports and variables often arise and it can be annoying to delete them just to have the compilation proceed, only to have them be needed again later. The blank identifier provides a workaround.
+https://golang.org/doc/effective_go.html#blank_unused
+ 
+31. When you see that a func has a parameter of this type "...interface{}" this is called a "variadic parameter" and it means that the func can take as many values of that type as you want to pass in. *
+true - Answer
+false
+
+Feedback
+We will learn more about "variadic parameters" throughout the course!
+https://golang.org/ref/spec#Passing_arguments_to_..._parameters
+ 
+32. Every value in Go is also of type "empty interface" which is expressed like this: "interface{}" *
+true - Answer
+false
+
+Feedback
+We will learn more about interfaces, and the empty interface, throughout this course!
+https://golang.org/doc/effective_go.html#interfaces_and_types
+ 
+33. A statement is an instruction that commands the computer to perform a specified action. Usually statements take up a line in a program. *
+True - Answer
+False
+ 
+34. An expression is a combination of one or more explicit values, constants, variables, operators, and functions that the programming language interprets and computes to produce another value. For example, 2+3 is an expression which evaluates to 5. *
+True - Answer
+False
+ 
+35. If I wanted to print to a string and then assign that value to a variable, I could use the "func Sprintf()" from the "fmt" package. *
+true - Answer
+false
+ 
+36. In Go, you can create your own TYPE *
+true - Answer
+false
+ 
+37. We don't say "casting" in Go, we say "conversion" *
+true - Answer
+false
+ 
+38. There is a language which we use to talk about the language. *
+true - Answer
+false
+ 
+39. When you create our own TYPE in Go, that TYPE will have an "underlying TYPE". *
+true - Answer
+false
+
+Feedback
+https://golang.org/ref/spec#Types
